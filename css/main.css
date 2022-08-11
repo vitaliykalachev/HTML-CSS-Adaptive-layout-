@@ -5,7 +5,7 @@
 body {
     color: black;
     font-family: 'Poppins', sans-serif;
-    
+    font-size: 14px;
 }
 
 .container {
@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
 }
 
 .logo {
@@ -50,4 +51,49 @@ body {
     height: 8px;
     background-color: #fda300;
     border-radius: 50%;
+}
+
+/* Nav */
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500px;
+    font-size: 14px;
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link.active {
+    color: #606060
+}
+
+/* Header content */
+
+.header-row {
+    display: flex; justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content{
+    margin-top: 124px;
+    max-width: 500px;
+}
+
+.header-heading{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px
+}
+
+.header-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
 }
