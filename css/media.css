@@ -68,4 +68,45 @@
     .header-heading span {
         font-size: 28px;
     }
+
+    .services {
+        padding: 60px 0;
+    }
+
+    .portfolio {
+        padding: 60px 0;
+    }
+
+    .portfolio-title {
+        margin-bottom: 50px;
+    }
+
+    .project-img {
+        margin-bottom: 30px;
+    }
+
+    .project + .project {
+        margin-top: 55px;
+    }
+
+    .contacts {
+        padding: 60px 0;
+    }
+
+    .contacts-title {
+        margin-bottom: 20px;
+    }
+
+    .contacts-content {
+        margin-bottom: 20px;
+    }
+
+    .contacts-button {
+        margin-bottom: 70px;
+    }
+
+    .contacts-social {
+        margin-bottom: 20px;
+        column-gap: 50px;
+    }
 }   
